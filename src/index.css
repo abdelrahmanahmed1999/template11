@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family:sans-serif;
+  background:#46529d;
+  color:#fff;
+}
+
+.container{
+  width:60%;
+  margin:10% auto;
+}
+
+@media (max-width:767px){
+  .container{
+    width:87%;
+  }
+}
+
+.text-center{
+  text-align:center;
+}
+
+.listitems{
+  color:#46529d;
+  background:#fff;
+}
+
+.listitems p{
+  margin:0;
+  color:#46529d;
+  text-align:center;
+  padding:10px 0;
+}
+
+span{
+  display:inline-block;
+  text-align:center;
+  padding:10px 0;
+  font-size:20px;
+}
+
+span.title{
+  color:#fff;
+  background:#2ebaee;
+}
+
+
+span.name,
+form input[type="text"]{
+  width:60%;
+}
+
+span.age,
+form input[type="number"]{
+  width:30%;
+}
+
+span.action,
+form input[type="submit"]{
+  width:10%;
+}
+
+@media (max-width:767px){
+  span.name,
+  form input[type="text"]{
+    width:41%;
+  }
+
+  span.age,
+  form input[type="number"]{
+    width:37%;
+  }
+
+  span.action,
+  form input[type="submit"]{
+    width:22%;
+  }
+}
+
+span.icon{
+  color:#f00;
+  cursor:pointer;
+}
+
+form input{
+  padding:10px;
+  background:#ebebeb;
+}
+
+form input[type='submit']{
+  color:#fff;
+  background:#2ebaee;
+  border:1px solid #2ebaee;
+  cursor:pointer;
+}
